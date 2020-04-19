@@ -2,6 +2,8 @@
 
 A very simple Chip-8 emulator and debugger, result of two afternoons of work. The emulator seems to work ok with the roms I've played with and I don't plan to add support for high resolution modes nor super/megachip extensions.
 
+![Screenshot](https://raw.githubusercontent.com/luismedel/chip8emu/master/screenshot.png "Screenshot")
+
 ### About Chip-8 ###
 
 (from [http://spritesmods.com/?art=chip8console&page=1](http://spritesmods.com/?art=chip8console&page=1))

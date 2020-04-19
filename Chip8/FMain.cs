@@ -64,13 +64,13 @@ namespace Chip8
             txtST.LostFocus += txtST_LostFocus;
             txtDT.LostFocus += txtDT_LostFocus;
 
-            UpdateUIState ();
-
             lstDump.Enabled = txtPC.Enabled = txtI.Enabled =
             loadROMToolStripMenuItem.Enabled = runToolStripMenuItem.Enabled =
             stepToolStripMenuItem.Enabled = btnStep.Enabled = btnRun.Enabled =
             btnPause.Enabled = false;
-            
+
+            UpdateUIState ();
+
             ResumeLayout ();
         }
 

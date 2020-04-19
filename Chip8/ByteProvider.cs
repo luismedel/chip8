@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Chip8
 {
-    class ByteProvider : IByteProvider
+    class ByteProvider
+        : IByteProvider
     {
         public event EventHandler Changed;
         public event EventHandler LengthChanged;
